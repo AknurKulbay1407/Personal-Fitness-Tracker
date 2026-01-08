@@ -16,28 +16,12 @@ public class workoutRoutine1 {
                 + duration + " minutes" + "   time: " + time;
     }
 
-    public String getExercise () {
-        return exercise;
-    }
-    public void setExercise (String exercise) {
-        this.exercise = exercise;
-    }
-    public int getReps () {
-        return reps;
-    }
-    public void setReps (int reps) {
-        this.reps = reps;
-    }
-    public int getDuration () {
-        return duration;
-    }
-    public void setDuration (int duration) {
-        this.duration = duration;
-    }
-    public String getTime () {
-        return time;
-    }
-    public void setTime (String time) {
-        this.time = time;
-    }
+    public String getExercise () {return exercise;}
+    public void setExercise (String exercise) {this.exercise = exercise;}
+    public int getReps () {return reps;}
+    public void setReps (int reps) {this.reps = reps;}
+    public int getDuration () {return duration;}
+    public void setDuration (int duration) {this.duration = duration;}
+    public String getTime () {return time;}
+    public void setTime (String time) {this.time = time;}
 }
